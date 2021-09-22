@@ -10,7 +10,7 @@ const fetchNames99 = async () => {
 };
 
 const names99 = async (id) => {
-  const url = `http://api.aladhan.com/asmaAlHusna/${id}`;
+  const url = `https://api.aladhan.com/asmaAlHusna/${id}`;
   const res = await fetch(url);
   const data = await res.json();
   //   console.log(data);
